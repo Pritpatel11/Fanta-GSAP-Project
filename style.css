@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'sansbold';
+    src: url(./Fonts/Product\ Sans\ Bold.ttf);
+}
+
+@font-face {
+    font-family: 'sansregular';
+    src: url(./Fonts/Product\ Sans\ Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.page-1{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+}
+nav{
+    padding: 20px 100px;
+    /* background-color: saddlebrown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav #logo,i{
+    font-size: 1.5rem;
+    font-family: 'sansregular';
+    color: white;
+    font-weight: 100;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.nav-link h4{
+    font-size: 1.2rem;
+    font-family: 'sansregular';
+    color: white;
+    font-weight: 100;
+}
+.hero-section{
+    width: 100%;
+    height: calc(100% - 69px);
+    /* background-color: blueviolet; */
+    position: relative;
+}
+.hero-section #fanta{
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+.hero-section #orange2{
+    width: 20%;
+    top: -5%;
+    position: absolute;
+    left: 35%;
+    z-index: 2;
+}
+.hero-section #orange{
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 4;
+}
+.hero-section #leaf{
+    width: 15%;
+    position: absolute;
+    left: .5%;
+    rotate: 60deg;
+}
+.hero-section #leaf2{
+    width: 10%;
+    position: absolute;
+    bottom: -2%;
+    right: 8%;
+    rotate: 260deg;
+}
+.hero-section #coconoutleaf{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top:2%;
+}
+#name{
+    width: 100%;
+    font-family: 'sansbold';
+    text-align: center;
+    font-size: 28vw;
+    color: white;
+    /* background-color: red; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.page-2{
+    width: 100%;
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+}
+.page-2 .left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+}
+.page-2 .left svg{
+    margin-top: 70vh;
+    width: 80%;
+    transform: rotateX(60deg);
+}
+.page-2 .right{
+    width: 50%;
+    height: 100%;
+    /* background-color: lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    gap: 5vh;
+}
+.page-2 .right h1{
+    color: white;
+    font-size: 3rem;
+    font-family: 'sansregular';
+    font-weight: 100;
+}
+.page-2 .right p{
+    text-align: justify;
+    font-size: 1rem;
+    color: white;
+    font-family: 'sansregular';
+    width: 90%;
+}
+.page-3{
+    width: 100%;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    overflow: hidden;
+}
+.elm{
+    width: 25%;
+    height: 70%;
+    margin-top: 15vh;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.elm #cocacola{
+    top: -8%;
+    position: absolute;
+    width: 50%;
+}
+.elm #pepsi{
+    top: -12%;
+    position: absolute;
+    width: 80%;
+}
+.elm h2{
+    margin-top: 50vh;
+    font-size: 3rem;
+    font-family: 'sansregular';
+}
+.elm button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    background-color: orangered;
+}
+.elm #elm-orange{
+    width: 90%;
+    /* z-index: -1; */
+    position: absolute;
+    top: -30%;
+}
